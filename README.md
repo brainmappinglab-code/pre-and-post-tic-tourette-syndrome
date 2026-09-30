@@ -30,7 +30,7 @@ Code written by Grace Lowor.
 ```
 
 ### Data Placement
-After obtaining data ([DATA.MD](https://github.com/brainmappinglab-code/pre-and-post-tic-tourette-syndrome/blob/main/data/DATA.md)), the code assumes that the data are stored locally following the directory structure outlined above for consistency. At minimum, the analysis scripts allows the user to browse to whatever directory the data is/will be stored for data loading and saving. 
+After obtaining [DATA](https://github.com/brainmappinglab-code/pre-and-post-tic-tourette-syndrome/blob/main/data/DATA.md), the code assumes that the data are stored locally following the directory structure outlined above for consistency. At minimum, the analysis scripts allows the user to browse to whatever directory the data is/will be stored for data loading and saving. 
 
 ## Running
 Install the MATLAB dependencies listed under **Required Packages** and add them to your path in MATLAB using the `addpath` MATLAB function.

@@ -13,7 +13,7 @@ Expected layout after you obtain data:
 ```
 data/
     raw/
-         subject_number/
+        subject_number/
             date_of_visit/
                 Left_IPG/*.json     # LFP data
                 Right_IPG/*.json

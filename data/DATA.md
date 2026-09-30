@@ -13,9 +13,9 @@ Expected layout after you obtain data:
 ```
 raw_data/
      subject_number/date_of_visit/
-                                Left_IPG/*.mat     # LFP data
-                                Right_IPG/*.mat
+                                Left_IPG/*.json     # LFP data
+                                Right_IPG/*.json
                                 VideoLabels/*.mat  # corresponding video labels synchronized to EMG via TTL pulse
 ```
 
-Then run dataset scripts as described in README.md.
+Then run the `perceive` function to load your `*.json` files from Medtronic Percept PC/RC and the analysis scripts as described in README.md.

@@ -17,7 +17,7 @@ data/
             date_of_visit/
                 Left_IPG/*.json     # LFP data
                 Right_IPG/*.json
-                VideoLabels/*.mat  # corresponding video labels synchronized to EMG via TTL pulse
+                VideoLabels/*.mat   # corresponding video labels synchronized to EMG via TTL pulse
 ```
 
 Then run the `perceive` function to load your `*.json` files from Medtronic Percept PC/RC and the analysis scripts as described in README.md.
